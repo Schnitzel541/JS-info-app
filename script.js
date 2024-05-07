@@ -5,6 +5,7 @@ const getInfo = () => {
   var name = prompt("Please enter your name: ");
   var age = prompt("Please enter your age: ");
   var birth_month = prompt("Please enter your birth month: ").toLowerCase();
+  var cat_name = prompt("Please enter your cat's name: ")
 
   var months = [
     "january",
@@ -25,6 +26,7 @@ const getInfo = () => {
     name: name,
     age: age,
     birth_month: birth_month,
+    cat_name: cat_name
   };
 
   if (isNaN(age)) {
